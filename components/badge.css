@@ -1,3 +1,30 @@
+@keyframes movingbadge{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: rotateY(360deg);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+@keyframes jumpingbadge{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  75%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: none;
+  }
+}
+
 .badge{
   width:18px;
   height:18px;
@@ -11,6 +38,14 @@
   position: absolute;
   top:-6px;
   right:-8px;
+}
+
+.badge-turning{
+  animation: movingbadge 2s ease-in-out infinite;
+}
+
+.badge--jumping{
+  animation: jumpingbadge 2s ease-in-out infinite;
 }
 
 .badge-etc{

@@ -5,25 +5,9 @@
   align-items: center;
 }
 
-@keyframes upscaletitle{
-  0%{
-    transform: none;
-  }
-  50%{
-    font-size: 40px;
-  }
-  75%{
-    transform: none;
-  }
-  100%{
-    transform: none;
-  }
-}
-
 .screen-header__column:first-child span{
   font-size:30px;
   font-weight: 800;
-  animation: upscaletitle 2s ease-in-out infinite;
 }
 
 .screen-header__column:last-child i{
