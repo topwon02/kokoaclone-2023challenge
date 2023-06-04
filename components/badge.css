@@ -1,0 +1,36 @@
+.badge{
+  width:18px;
+  height:18px;
+  border-radius: 50%;
+  background-color:tomato;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index:3;
+  position: absolute;
+  top:-6px;
+  right:-8px;
+}
+
+.badge-etc{
+  width:6px;
+  height:6px;
+}
+
+.badge-chatcount{
+  position: relative;
+  right:-20px;
+  top:10px;
+  font-size:8px;
+}
+
+.badge__setting{
+  position: relative;
+  top:1px;
+  font-size:8px;
+}
+
+.badge span{
+  font-size:8px;
+}

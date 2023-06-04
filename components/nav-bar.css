@@ -1,0 +1,21 @@
+.nav-bar-box{
+  width:100%;
+  position:fixed;
+  bottom:0px;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 20px 50px;
+}
+
+.nav-bar__list i{
+  color:black;
+  font-size: 22px;
+}
+
+.nav-bar__list{
+  position: relative;
+}
